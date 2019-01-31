@@ -27,7 +27,7 @@ class GreenStart(object):
   def trick_commit(self, year, month, day, file_name):
     self.set_sys_time(year, month, day)
     times = random.randint(0, 35) + 2
-    print("current day %04d %02d %02d", year, month, day)
+    print("current day %04d %02d %02d", year, month, day, times)
     while times > 0:
       self.modify(file_name)
       self.commit()
