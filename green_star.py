@@ -44,4 +44,4 @@ class GreenStart(object):
 
 if __name__ == '__main__':
   start = GreenStart()
-  start.daily_commit(datetime.date(2018, 11, 26), datetime.date(2019, 10, 25), 'zero.md')
+  start.daily_commit(datetime.date(2019, 2, 26), datetime.date(2019, 5, 25), 'zero.md')
